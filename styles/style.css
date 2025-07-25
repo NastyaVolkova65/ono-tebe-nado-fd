@@ -1,5 +1,7 @@
 .header {
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .menu {
@@ -7,7 +9,26 @@
 }
 
 .cover {
+  background-image: url("\images\cover.jpg")
+}
 
+.cover_title {
+  width: 1000px;
+  height: 385px;
+  color: #FFFFFF;
+
+}
+
+.span {
+  display: block;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.text_righr {
+  text-align: right;
 }
 
 .description {

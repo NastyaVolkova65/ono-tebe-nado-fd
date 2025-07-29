@@ -1,15 +1,34 @@
 .header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items:center;
+  padding: 50px;
 }
 
-.menu {
+.header_menu {
+  
 
+}
+
+.header_menu-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-style: Regular;
+}
+
+.header_menu-item {
+  list-style: circle;
+}
+  
+  
+.header_logo {
+  display: block;
+  width: 129.11px;
 }
 
 .cover {
-  background-image: url("\images\cover.jpg")
+  background-image: url (".\images\cover.jpg")
 }
 
 .cover_title {
